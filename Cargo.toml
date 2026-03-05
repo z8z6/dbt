@@ -1,5 +1,11 @@
 [workspace]
-members = ["asm", "core", "interp",
+members = [
+    "asm",
+    "core",
+    "interp",
     "main",
-    "object"
-, "support", "trans"]
+    "object",
+    "support",
+    "trans"
+]
+resolver = "3"
