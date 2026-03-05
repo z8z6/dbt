@@ -5,3 +5,30 @@ version = 4
 [[package]]
 name = "dbt"
 version = "0.1.0"
+dependencies = [
+ "dbt-object",
+]
+
+[[package]]
+name = "dbt-asm"
+version = "0.1.0"
+
+[[package]]
+name = "dbt-core"
+version = "0.1.0"
+
+[[package]]
+name = "dbt-interp"
+version = "0.1.0"
+
+[[package]]
+name = "dbt-object"
+version = "0.1.0"
+
+[[package]]
+name = "dbt-support"
+version = "0.1.0"
+
+[[package]]
+name = "dbt-trans"
+version = "0.1.0"
